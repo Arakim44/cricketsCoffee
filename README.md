@@ -1,4 +1,5 @@
-MeatKing
+Cricket's Coffee Website
 ========
 
-Restaurant Theme based on Twitter Bootstrap 3
+Small coffee shop on Main street of SUNY Geneseo. 
+One of my portfolio project.
