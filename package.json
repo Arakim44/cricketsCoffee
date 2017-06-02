@@ -1,0 +1,34 @@
+{
+  "name": "cricketscoffee",
+  "version": "1.0.0",
+  "description": "Website projects for crickets coffee company",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arakim44/cricketsCoffee.git"
+  },
+  "author": "Ara Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arakim44/cricketsCoffee/issues"
+  },
+  "homepage": "https://github.com/Arakim44/cricketsCoffee#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.3",
+    "express-validator": "^3.2.0",
+    "method-override": "^2.3.9",
+    "morgan": "^1.8.2",
+    "mysql": "^2.13.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "sequelize": "^3.30.4"
+  }
+}
