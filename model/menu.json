@@ -1,0 +1,230 @@
+{
+hot-drinks: {
+COFF: {
+name: "Coffee",
+description: ""
+        },
+LAIT: {
+name: "Au Lait",
+description: ""
+        },
+AMER: {
+name: "Americano",
+description: ""
+        },
+LATT: {
+name: "Latte",
+description: ""
+        },
+CAPP: {
+name: "Cappucino",
+description: ""
+        },
+MOCH: {
+name: "Mocha",
+description: ""
+        },
+MACC: {
+name: "Macchiato",
+description: ""
+        },
+CORT: {
+name: "Cortado",
+description: ""
+        },
+ESPR: {
+name: "Espresso",
+description: ""
+        },
+POUR: {
+name: "Pour-Over",
+description: ""
+        },
+MBAR: {
+name: "ModBar Pour-Over",
+description: ""
+        }
+    },
+cold-drinks: {
+BREW: {
+name: "Cold Brew",
+description: ""
+        },
+LATT: {
+name: "Latte",
+description: ""
+        },
+MOCH: {
+name: "Mocha",
+description: ""
+        },
+AMER: {
+name: "Americano",
+description: ""
+        },
+CLAT: {
+name: "Chai Latte",
+description: ""
+        },
+SEAS: {
+name: "Seasonal Tea",
+description: ""
+        }
+    },
+specialty-drinks: {
+NMOC: {
+name: "Nutella Mocha",
+description: ""
+        },
+HLAT: {
+name: "Honey Cinnamon Latte",
+description: ""
+        },
+MMOC: {
+name: "Mexican Mocha",
+description: ""
+        },
+CLAT: {
+name: "Chai Latte",
+description: ""
+        },
+DIRT: {
+name: "Dirty Chai",
+description: ""
+        },
+HCOA: {
+name: "Hot Cocoa",
+description: ""
+        },
+MCOA: {
+name: "Mexican Cocoa",
+description: ""
+        },
+SMOC: {
+name: "S'Mores Mocha",
+description: ""
+        },
+MLAT: {
+name: "Maple Syrup Latte",
+description: ""
+        }
+    },
+tea: {
+BLAC: {
+name: "BLACK",
+description: "Masala Chai, China Breakfast, Earl Grey, Darjeeling"
+        },
+GREE: {
+name: "GREEN",
+description: "Jade Cloud, Jasmine, Genmaicha, Orange Blossom"
+        },
+HERB: {
+name: "HERBAL",
+description: "Peppermint, Chamomile, Tangerine Ginger"
+        },
+OOLO: {
+name: "OOLONG",
+description: "Coconut, Iron Goddess of Mercy"
+        },
+ROOI: {
+name: "ROOIBOS",
+description: "Blueberry, Ginger-Lime"
+        },
+WHIT: {
+name: "WHITE",
+description: "Peach Blossom"
+        }
+    },
+breakfast: {
+EBBI: {
+name: "EGG &amp; BACON BISCUIT",
+description: "Biscuit, Ellis Family Farm Egg, Nueskes Bacon &amp; Tillamook Cheddar Cheese"
+        },
+SABI: {
+name: "SAUSAGE BISCUIT",
+description: "Biscuit, C &amp; D Family Farm Sausage, Cheddar, and Caramelized Onions"
+        },
+ECBI: {
+name: "EGG &amp; CHEDDAR BISCUIT",
+description: "Biscuit, Ellis Family Farm Egg, Tillamook Cheddar Cheese"
+        },
+JABI: {
+name: "JAM BISCUIT",
+description: "Biscuit, Butter, and Jam"
+        },
+BAGL: {
+name: "BAGEL &amp; CREAM CHEESE",
+description: "Bagel with Cream Cheese"
+        },
+BSCH: {
+name: "BAGEL SANDWICH",
+description: "with Cream Cheese, Red Onion, Tomato"
+        },
+BSHU: {
+name: "BAGEL SANDWICH",
+description: "with Hummus, Tomato, Cucumber"
+        }
+    },
+lunch: {
+TURK: {
+name: "TURKEY SANDWICH",
+description: "Turkey Breast, Avocado, Garlic Aioli, White Cheddar, Lettuce &amp; Tomato"
+        },
+HAMS: {
+name: "ANNIE'S JAMMY HAMMY",
+description: "Ham, Dollop Fruit Jam, White Cheddar, Tomato, Lettuce, Mayo"
+        },
+VEGG: {
+name: "VEGGIE SANDWICH",
+description: "Cucumber, Tomato, Goat Cheese Spread, Roasted Red Peppers"
+        },
+BRIE: {
+name: "BRIE SANDWICH",
+description: "Brie Cheese, Pear, Fig Jam"
+        },
+BEEF: {
+name: "ROAST BEEF SANDWICH",
+description: "Roast Beef, Horseradish Cream, Tomato, Lettuce, Red Onion"
+        },
+PBAJ: {
+name: "PB &amp; J",
+description: "Peanut Butter, Seasonal Dollop Fruit Jam"
+        },
+PBBA: {
+name: "PB &amp; BANANA",
+description: "Peanut Butter, Banana, Local Honey"
+        },
+BLTS: {
+name: "B.L.T.",
+description: "Bacon, Lettuce, Tomato, Mayo"
+        }
+    },
+salad: {
+CWAL: {
+name: "Cherry Walnut",
+description: ""
+        },
+APAL: {
+name: "Apple Almond",
+description: ""
+        }
+    },
+pie: {
+CHPP: {
+name: "Chicken Pot Pie",
+description: ""
+        },
+SVEG: {
+name: "Seasonal Vegetarian",
+description: ""
+        },
+SWEE: {
+name: "Sweet Pie Slice",
+description: ""
+        },
+QUIC: {
+name: "Quiche Slice",
+description: ""
+        }
+    }
+}
