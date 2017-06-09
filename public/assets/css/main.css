@@ -22,6 +22,11 @@ TABLE OF CONTENTS
 /* ==========================================================================
     01. General and Typography 
 ========================================================================== */
+.logoImg {
+    margin-top: 100px;
+}
+
+
 body {
     font-family:'Kreon',serif;
     -webkit-font-smoothing:antialiased;
@@ -75,8 +80,21 @@ section::before,section::after {
 /* ==========================================================================
     02. Header 
 ========================================================================== */
+#location-header {
+      background-image:url(../img/coffeeImg/window5.jpg);
+    -webkit-background-size:/*@@prefixmycss->No equivalent*/;
+    -moz-background-size:cover;
+    -o-background-size:/*@@prefixmycss->No equivalent*/;
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    position:relative;
+
+}
+
 #header {
-    background-image:url(../img/coffeeimg/coffee.jpg);
+    background-image:url(../img/coffeeImg/coffee.jpg);
     -webkit-background-size:/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
     -o-background-size:/*@@prefixmycss->No equivalent*/;
@@ -477,7 +495,7 @@ section::before,section::after {
         display:inline-block;
         float:none;
     }
-    #logo {
+    #logo { 
         position:absolute;
         display:block !important;
         width:110px;

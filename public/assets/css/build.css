@@ -695,10 +695,12 @@ header {
       background-repeat: repeat-y; }
     header .header-background .right-overlay {
       right: 0;
-      background: url("../../images/right_overlay.svg"); }
+      background: url("../img/coffeeImg/window5.jpg");
+       }
     header .header-background .left-overlay {
       left: 0;
-      background: url("../../images/left_overlay.svg"); }
+      /*background: url("../../images/left_overlay.svg");*/
+       }
     header .header-background:after {
       content: '';
       display: block;
@@ -805,7 +807,74 @@ header {
       color: #cdb85f; }
   header.sub-page-header {
     padding-top: 100px;
-    background: #cdb85f; }
+     }
+header#location{
+  background-image: url('../img/mainStreet2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+
+}
+
+header#menu{
+     background-image: url('/assets/img/coffeeImg/waffle3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+}
+header#bakeShop{
+     background-image: url('/assets/img/coffeeImg/food2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+}
+header#shop{
+     background-image: url('/assets/img/coffeeImg/shop1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+}
+
+header#contact{
+     background-image: url('/assets/img/coffeeImg/coffee8.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+}
+
+
+
+
     header.sub-page-header:after {
       content: '';
       display: block;
