@@ -18,5 +18,9 @@ MVC style yeah baby
 
 design inspired by dollopcoffee.com blahblah.
 
+Deployed, but still under construction.
+
 #https://cricketscoffee.herokuapp.com/
 
+
+TIENDEO udemy code
