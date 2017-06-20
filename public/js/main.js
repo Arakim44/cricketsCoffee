@@ -27,72 +27,94 @@
 )(jQuery,'smartresize');
 
 
-$(document).ready(function() {
-	///////////////////////////////
-	// Set Home Slideshow Height
-	///////////////////////////////
-	function setHomeBannerHeight() {
-		var windowHeight = jQuery(window).height();
-		jQuery('#header').height(windowHeight);
-	}
-	///////////////////////////////
-	// Center Home Slideshow Text
-	///////////////////////////////
-	function centerHomeBannerText() {
-		var bannerText = jQuery('#header > .center');
-		var bannerTextTop = (jQuery('#header').actual('height')/2) - (jQuery('#header > .center').actual('height')/2) - 20;
-		bannerText.css('padding-top', bannerTextTop+'px');
-		bannerText.show();
-	}
-	setHomeBannerHeight();
-	centerHomeBannerText();
-	//Resize events
-	jQuery(window).smartresize(function() {
-		setHomeBannerHeight();
-		centerHomeBannerText();
-	});
+
+// $(document).ready(function() {
+// 	///////////////////////////////
+// 	// Set Home Slideshow Height
+// 	///////////////////////////////
+// 	function setHomeBannerHeight() {
+// 		var windowHeight = jQuery(window).height();
+// 		jQuery('#header').height(windowHeight);
+// 	}
+// 	///////////////////////////////
+// 	// Center Home Slideshow Text
+// 	///////////////////////////////
+// 	function centerHomeBannerText() {
+// 		var bannerText = jQuery('#header > .center');
+// 		var bannerTextTop = (jQuery('#header').actual('height')/2) - (jQuery('#header > .center').actual('height')/2) - 20;
+// 		bannerText.css('padding-top', bannerTextTop+'px');
+// 		bannerText.show();
+// 	}
+// 	setHomeBannerHeight();
+// 	centerHomeBannerText();
+// 	//Resize events
+// 	jQuery(window).smartresize(function() {
+// 		setHomeBannerHeight();
+// 		centerHomeBannerText();
+// 	});
 	
-	function scroll() {
-		if ($(window).scrollTop() == 0 ) {
-			//$('.nav > li').removeClass('active');
-			console.log($(window).scrollTop());
-		} else {
+// 	function scroll() {
+// 		if ($(window).scrollTop() == 0 ) {
+// 			//$('.nav > li').removeClass('active');
+// 			console.log($(window).scrollTop());
+// 		} else {
 			
-		}
-	}
-	document.onscroll = scroll;
-	var $scrollDownArrow = $('#scrollDownArrow');
-	var animateScrollDownArrow = function() {
-		$scrollDownArrow.animate( {
-			top: 5,
-		}
-		, 400, "linear", function() {
-			$scrollDownArrow.animate( {
-				top: -5,
-			}
-			, 400, "linear", function() {
-				animateScrollDownArrow();
-			}
-			);
-		});
-	}
-	animateScrollDownArrow();
-	//Set Down Arrow Button
-	jQuery('#scrollDownArrow').click(function(e) {
-		e.preventDefault();
-		jQuery.scrollTo("#story", 1000, {
-			offset:-(jQuery('#header #menu').height()), axis:'y'
-		}
-		);
-	});
-	jQuery('.nav > li > a, #logo a').click(function(e) {
-		e.preventDefault();
+// 		}
+// 	}
+// 	document.onscroll = scroll;
+// 	var $scrollDownArrow = $('#scrollDownArrow');
+// 	var animateScrollDownArrow = function() {
+// 		$scrollDownArrow.animate( {
+// 			top: 5,
+// 		}
+// 		, 400, "linear", function() {
+// 			$scrollDownArrow.animate( {
+// 				top: -5,
+// 			}
+// 			, 400, "linear", function() {
+// 				animateScrollDownArrow();
+// 			}
+// 			);
+// 		});
+// 	}
+// 	animateScrollDownArrow();
+// 	//Set Down Arrow Button
+// 	jQuery('#scrollDownArrow').click(function(e) {
+// 		e.preventDefault();
+// 		jQuery.scrollTo("#story", 1000, {
+// 			offset:-(jQuery('#header #menu').height()), axis:'y'
+// 		}
+// 		);
+// 	});
+// 	jQuery('.nav > li > a, #logo a').click(function(e) {
+// 		e.preventDefault();
 
-		jQuery.scrollTo(jQuery(this).attr('href'), 400, {
-			offset:-(jQuery('#header #menu').height()), axis:'y'
-		}
-		);
-	});
+// 		jQuery.scrollTo(jQuery(this).attr('href'), 400, {
+// 			offset:-(jQuery('#header #menu').height()), axis:'y'
+// 		}
+// 		);
+// 	});
 
 
-});
+// });
+
+// $(document).ready(function () {
+//     $('.navbar-nav li a').click(function(e) {
+
+//         $('.navbar-nav li a').removeClass('active');
+
+//         var $this = $(this);
+//         if (!$this.hasClass('active')) {
+//             $this.addClass('active');
+//         }
+//         // e.preventDefault();
+//     });
+// });
+ 
+ $(document).ready(function () {
+        var url = window.location;
+        $('ul.navbar-nav li a[href="'+ url +'"]').parent().addClass('active');
+        $('ul.navbar-nav li a').filter(function() {
+             return this.href == url;
+        }).parent().addClass('active');
+    });

@@ -23,8 +23,8 @@ TABLE OF CONTENTS
     01. General and Typography 
 ========================================================================== */
 #map {
-    width: 80%;
-    height: 90%;
+    width: 100%;
+    height: 500px;
     background-color: grey;
     border:5px solid #e7e7e7;
  
@@ -193,11 +193,14 @@ section::before,section::after {
     color:white;
     font-weight:bold;
 }
-.navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>.active>a {
+.navbar-inverse .navbar-nav>li>a:hover {
+    color:#85715c;
+}
+/*.navbar-inverse .navbar-nav a.active {
     background:#85715c;
     color:white;
     text-shadow:none;
-}
+}*/
 
 
 /* ==========================================================================
