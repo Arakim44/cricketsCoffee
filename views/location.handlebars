@@ -25,27 +25,47 @@
       </div><!--/ .header-column 2 -->
     </div>
 
-  </header>
+  </header><br><br>
 
-  <section class="locations-grid">
-
-    
+  <section class="locations-grid">    
     <article class="location-cell">
       <div class="dollop-circle-wrap">
         <div class="dollop-circle"></div>
-        <img src='assets/images/building-streeterville.svg'>      </div>
-      <h3>STREETER</h3>
+        {{!--<img src='assets/images/building-streeterville.svg'>--}}
+      </div>
+      <h3>Geneseo</h3>
       <div class="address">
-        345 East Ohio Street <br>Chicago, IL 60611      </div>
+        53 Main St <br>Geneseo, NY 14454
+      </div>
       <div class="phone">
-        (312) 929-4007      </div>
+        (585) 245 8984     </div>
       <h4><hr>HOURS</h4>
       <div class="hours">
-        Daily: 7<em>am</em> - 7<em>pm</em>      </div>
-      <img src="/assets/images/star.svg" class="location-star">
+        Monday-Friday: 7<em>am</em> - 5<em>pm</em>
+      </div>
+      <div class="hours">
+        Weekends: 8<em>am</em> - 5<em>pm</em>
+      </div><br><br>
+    <div id="map"></div>
     </article>
+  </section><!--/ .locations-grid -->
 
 
 
     
-  </section><!--/ .locations-grid -->
+    <script>
+      function initMap() {
+        var uluru = {lat: 42.796723, lng: -77.816507};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwi6ReHWczR3f1bBamtv7v8DbuIUeMGSs&callback=initMap">
+</script>
