@@ -258,6 +258,16 @@ section::before,section::after {
 #openmic{
     background-color:#85715C;
 }
+.parallax3 {
+    background:url("/assets/img/coffeeImg/window5.jpg") fixed no-repeat center center;
+    -webkit-background-size:/*@@prefixmycss->No equivalent*/;
+    -moz-background-size:cover;
+    -o-background-size:/*@@prefixmycss->No equivalent*/;
+    background-size:cover;
+    position:relative;
+    color:#FFF;
+
+}
 
 .parallax {
     background:url("/assets/img/coffeeImg/coffee10.jpg") fixed no-repeat center center;

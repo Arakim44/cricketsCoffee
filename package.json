@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords":[
+  "keywords": [
     "heroku"
   ],
   "repository": {
@@ -27,6 +27,7 @@
     "express-handlebars": "^3.0.0",
     "express-session": "^1.15.3",
     "express-validator": "^3.2.0",
+    "hover.css": "^2.2.0",
     "method-override": "^2.3.9",
     "morgan": "^1.8.2",
     "mysql": "^2.13.0",
@@ -36,5 +37,5 @@
   },
   "engines": {
     "node": "6.10.3"
-  } 
+  }
 }
