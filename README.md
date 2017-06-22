@@ -1,7 +1,7 @@
 Cricket's Coffee Website
 ========
 
-Small coffee shop on Main street of SUNY Geneseo. 
+<!--Small coffee shop on Main street of SUNY Geneseo. 
 One of my portfolio project.
 
 explain:
@@ -18,9 +18,10 @@ MVC style yeah baby
 
 design inspired by dollopcoffee.com blahblah.
 
-Deployed, but still under construction.
+Deployed, but still under construction.-->
 
-#https://cricketscoffee.herokuapp.com/
+Demo here:
+https://cricketscoffee.herokuapp.com/
 
 
-TIENDEO udemy code
+<!--TIENDEO udemy code-->
